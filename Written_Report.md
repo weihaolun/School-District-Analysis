@@ -37,8 +37,26 @@ For this portion of the project, we will conduct the following steps to the data
 
 ## II. Results
 ### 1. How is the district summary affected?
+The result for overall District Summary was affected by removing Thomas High School ninth graders’ scores. The student count and scores were both adjusted. The number of Thomas High School ninth graders has been deducted from total student count, and their scores have been adjusted to NaNs.
+As shown in the tables below, Average Math Score, Average Reading Score, % Passing Math, % Passing Reading and % Overall Passing, all the metrics dropped after the adjustment. Average Reading Score only dropped very slightly, but we can still see the change from the unformatted version.
+Average Math Score changed from 79.0 to 78.9; Average Reading score changed from 81.87784 to 81.855796; % Passing Math changed from 75.0 to 74.8; % Passing Reading changed from 85.8 to 85.7; % Overall Passing Rate changed from 65.2 to 64.9.
 
 ### 2. How is the school summary affected?
+School summary DataFrame is a table for each school’s data. Each of the 15 schools has its own row of data, so that only the row for Thomas High School is affected by the adjustment. 
+
+Thomas High School data changed twice. The first change only adjusted Average Math Score and Average Reading Score to the correct values, while % Passing Math, % Passing Reading and % Overall Passing all dropped to 60%+ which are not correct yet.
+
+Average scores got adjusted correctly because all Thomas High School ninth graders’ scores are NaNs and the average calculation by the code below automatically skips NaNs data. Therefore, both total scores and students counts are adjusted for this part of calculation.
+
+per_school_math = school_data_complete_df.groupby(["school_name"]).mean()["math_score"]
+per_school_reading = school_data_complete_df.groupby(["school_name"]).mean()["reading_score"]
+
+% data need further adjustment because only the number of student passed changed (deducted NaNs) while the student counts is unchanged and still includes every student with label “Thomas High School”.
+
+per_school_math = school_data_complete_df.groupby(["school_name"]).mean()["math_score"]
+per_school_reading = school_data_complete_df.groupby(["school_name"]).mean()["reading_score"]
+
+The second change corrected % data. We took a code block to calculate the % data separately for Thomas High School. We ensured that the total count in this calculation only includes 10th-12th graders. The final summary for Thomas High School is shown below:
 
 ### 3. How does replacing the ninth graders' math and reading scores affect Thomas High Schools's performance relative to the other schools?
 
