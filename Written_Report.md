@@ -71,11 +71,21 @@ Before replacing the ninth graders math and reading scores, Thomas High School w
 ### 4. How does replacing the ninth-grade scores affect the following:
 - **Math and reading scores by grade**
 
+    Scores by grade DataFrame is labeled by both school name and grade, therefore only the data for 9th grade of Thomas High School is affected. For both reading and math scores table, the cell at row “_Thomas High School_” and column “_9th_” shows “nan”!
+
+  ![By grade](https://user-images.githubusercontent.com/84211948/125433632-46a75a35-da36-4fa2-98dc-0976aa6eca87.png)
+
 - **Scores by school spending**
+
+    The adjustment only affects the group of $630 - $644 budget per student. The data changed very slightly after decimal point, but remained same after formatting to one decimal for scores and whole number for percentage.
 
 - **Scores by school size**
 
+    Thomas High School falls into medium-size school category (1000 – 2000 students) and only this group is affected by the adjustment. The data changed very slightly after decimal point, but remained same after formatting to one decimal for scores and whole number for percentage.
+
 - **Scores by school type**
+    
+    Thomas High School is charter school, so that only charter school is affected. There are only two types of schools so that the change of just ninth graders of Thomas High School is very insignificant. Same as above metrics, the data remained same after formatting to one decimal for scores and whole number for percentage.
 
 
 ## III.  Summary
