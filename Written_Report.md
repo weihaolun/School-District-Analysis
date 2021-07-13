@@ -21,7 +21,19 @@ Before this specific portion of the project, we have already conducted following
 
 
 ### Purpose
+The School Board found out that there’s evidence of academic dishonesty in reading and math grades for Thomas High School ninth graders, specifically, the scores appear to have been altered. Therefore, for this part of the project, we are going to help Maria to replace the math and reading scores for Thomas High School ninth graders with NaNs while keeping the rest of the data intact. After conducting replacement, we will compare the data and summarize the changes. 
 
+For this portion of the project, we will conduct the following steps to the dataset:
+-	Clean up the data.
+-	Replace Thomas High School ninth grader scores with NaNs.
+-	Repeat the school district analysis with adjusted data.
+-	Repeat per school summary with adjusted data.
+-	Repeat school rankings with adjusted data.
+-	Repeat Math & Reading scores by grades with adjusted data.
+-	Repeat score performance grouped by budget per student with adjusted data.
+-	Repeat score performance grouped by school size with adjusted data.
+-	Repeat score performance grouped by school type with adjusted data.
+-	Compare and analyze DataFrame before & after adjustment.
 
 ## II. Results
 ### 1. How is the district summary affected?
