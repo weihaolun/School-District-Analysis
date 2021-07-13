@@ -1,6 +1,6 @@
 # School District Analysis with Pandas
 
-## I. Overview
+## I.  Overview
 
 ### Background
 We have been assisting Maria, the Chief Data Scientist in City School District. We received two raw data sources for this project:
@@ -35,7 +35,7 @@ For this portion of the project, we will conduct the following steps to the data
 -	Repeat score performance grouped by school type with adjusted data.
 -	Compare and analyze DataFrame before & after adjustment.
 
-## II. Results
+## II.  Results
 ### 1. How is the district summary affected?
 - The result for overall District Summary is affected by removing Thomas High School ninth graders’ scores. The student count and scores are both adjusted. The number of Thomas High School ninth graders has been deducted from total student count, and their scores have been adjusted to NaNs.
 
@@ -50,12 +50,12 @@ For this portion of the project, we will conduct the following steps to the data
 
 - Thomas High School data gets adjusted twice. The first change only adjusts _Average Math Score_ and _Average Reading Score_ to the correct values, while _% Passing Math, % Passing Reading and % Overall Passing_ all drop to 60%+ which are not correct yet.
 
-- Average scores gets adjusted correctly because all Thomas High School ninth graders’ scores are NaNs and the average calculation by the code below automatically skips NaNs data. Therefore, both total scores and students counts are correctly adjusted for this part of calculation.
+  - Average scores gets adjusted correctly because all Thomas High School ninth graders’ scores are NaNs and the average calculation by the code below automatically skips NaNs data. Therefore, both total scores and students counts are correctly adjusted for this part of calculation.
   ```
   per_school_math = school_data_complete_df.groupby(["school_name"]).mean()["math_score"]
   per_school_reading = school_data_complete_df.groupby(["school_name"]).mean()["reading_score"]
   ```
-- % data needs further adjustment because only the number of passing students is adjusted (deducted NaNs) while the student counts is unchanged and still includes every student with label “Thomas High School”.
+  - % data needs further adjustment because only the number of passing students is adjusted (deducted NaNs) while the student counts is unchanged and still includes every student with label “Thomas High School”.
 
 ![School Summary1](https://user-images.githubusercontent.com/84211948/125429457-9a6bac53-4dff-4af7-9d64-3d6a3936d0a7.png)
 
@@ -75,4 +75,4 @@ For this portion of the project, we will conduct the following steps to the data
 - **Scores by school type**
 
 
-## III. Summary
+## III.  Summary
