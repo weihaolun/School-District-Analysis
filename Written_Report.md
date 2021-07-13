@@ -89,3 +89,9 @@ Before replacing the ninth graders math and reading scores, Thomas High School w
 
 
 ## III.  Summary
+All the changes are caused by replacing Thomas High School ninth graders’ scores to NaNs, and the student count for Thomas High School used for calculations is also adjusted accordingly. In conclusion, there are mainly following changes:
+  1.	District Summary data changed. Average Math Score, Average Reading Score, % Math Passing, % Reading Passing and % Overall Passing are all affected by the replacing.
+  2.	In Per School Summary, Thomas High School data changed. Similar to District Summary, all the numbers are affected by the replacing except school’s basic information.
+  3.	Math Score by Grade changed. Math scores for 9th graders at Thomas High School has been adjusted to NaNs.
+  4.	Reading Score by Grade is changed. Reading scores for 9th graders at Thomas High School has been adjusted to NaNs.
+  5.	As mentioned in Result section, data of Score by Spending, by Size and by Type all changed slightly but not significant enough to appear changes after formatting. 
