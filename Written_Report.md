@@ -1,6 +1,6 @@
 # School District Analysis with Pandas
 
-## I.  Overview
+## I. Overview
 
 ### Background
 We have been assisting Maria, the Chief Data Scientist in City School District to analyze the standard test results. We received two raw data sources for this project:
@@ -37,7 +37,7 @@ For this portion of the project, we will conduct the following steps to the data
 -	Repeat score performance grouped by school type with adjusted data.
 -	Compare and analyze DataFrame before & after adjustment.
 
-## II.  Results
+## II. Results
 ### 1. How is the district summary affected?
 - The result for overall District Summary is affected by removing Thomas High School ninth graders’ scores. The student count and scores are both adjusted. The number of Thomas High School ninth graders has been deducted from total students count, and their scores have been adjusted to NaNs.
 
@@ -90,10 +90,10 @@ Before replacing the ninth graders math and reading scores, Thomas High School w
     Thomas High School is a charter school and only charter school data is affected. There are only two types of schools so that the change of just ninth graders of Thomas High School is very insignificant. Same as above metrics, the data remained same after formatting to one decimal for scores and whole number for percentage.
 
 
-## III.  Summary
+## III. Summary
 All the changes are caused by replacing Thomas High School ninth graders’ scores to NaNs, and the students count for Thomas High School used for calculations is also adjusted accordingly. In conclusion, there are mainly following changes:
   1.	District Summary data changed. Average Math Score, Average Reading Score, % Math Passing, % Reading Passing and % Overall Passing are all affected by the replacing.
   2.	In Per School Summary, Thomas High School's data changed. Similar to District Summary, all the metrics are affected by the replacement except for school’s basic information such as budget, type and size.
   3.	Math Score by Grade changed. (Average) Math score for 9th graders at Thomas High School has been adjusted to NaNs.
   4.	Reading Score by Grade changed. (Average) Reading score for 9th graders at Thomas High School has been adjusted to NaNs.
-  5.	As mentioned in [Result section](#ii.-results), data of Score by Spending, by Size and by Type all changed slightly but not significant enough to appear changes after formatting. 
+  5.	As mentioned in [Result section](#ii.--results), data of Score by Spending, by Size and by Type all changed slightly but not significant enough to appear changes after formatting. 
