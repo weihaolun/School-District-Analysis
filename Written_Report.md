@@ -102,6 +102,16 @@ All the changes are caused by replacing Thomas High School ninth graders’ scor
  
 ### Scores by school spending
 
+![By spending](https://user-images.githubusercontent.com/84211948/125563800-dc9cfc5a-53d6-4df5-a787-3153e2209ae3.png)
+
 ### Scores by school size
 
+![By size](https://user-images.githubusercontent.com/84211948/125563818-b51271f4-fff7-4b3f-9c98-02d4678fe5d4.png)
+
 ### Scores by school type
+
+![By type](https://user-images.githubusercontent.com/84211948/125563836-79346c4a-37a5-4e17-9c2a-195857e1f5f1.png)
+
+### Exported Excel File
+
+[Challenge_Data](https://github.com/weihaolun/school-district-analysis/blob/8a7169fa09b2b82cf1b6007ac33cdd3cd4d00ce9/Resources/challenge_data.xlsx)
