@@ -96,4 +96,4 @@ All the changes are caused by replacing Thomas High School ninth graders’ scor
   2.	In Per School Summary, Thomas High School's data changed. Similar to District Summary, all the metrics are affected by the replacement except for school’s basic information such as budget, type and size.
   3.	Math Score by Grade changed. (Average) Math score for 9th graders at Thomas High School has been adjusted to NaNs.
   4.	Reading Score by Grade changed. (Average) Reading score for 9th graders at Thomas High School has been adjusted to NaNs.
-  5.	As mentioned in [Result section](#ii.--results), data of Score by Spending, by Size and by Type all changed slightly but not significant enough to appear changes after formatting. 
+  5.	As mentioned in [Results section](#ii.-results), data of Score by Spending, by Size and by Type all changed slightly but not significant enough to appear changes after formatting. 
