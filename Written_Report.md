@@ -79,15 +79,15 @@ Before replacing the ninth graders math and reading scores, Thomas High School w
 
 - **Scores by school spending**
 
-    The adjustment only affects the group of $630 - $644 budget per student. The data changed very slightly after the decimal point, but remained same after formatting to one decimal for scores and whole number for percentage.
+    The adjustment only affects the group of $630 - $644 budget per student. The data changed very slightly after the decimal point, but remained same after formatting to one decimal for scores and whole number for percentage. (_Please refer to [Appendix](#scores-by-school-spending) for table comparison)_ 
 
 - **Scores by school size**
 
-    Thomas High School falls into medium-size school category (1000 – 2000 students) and only this group is affected by the adjustment. The data changed very slightly after the decimal point, but remained same after formatting to one decimal for scores and whole number for percentage.
+    Thomas High School falls into medium-size school category (1000 – 2000 students) and only this group is affected by the adjustment. The data changed very slightly after the decimal point, but remained same after formatting to one decimal for scores and whole number for percentage. (_Please refer to [Appendix](#scores-by-school-size) for table comparison)_ 
 
 - **Scores by school type**
     
-    Thomas High School is a charter school and only charter school data is affected. There are only two types of schools so that the change of just ninth graders of Thomas High School is very insignificant. Same as above metrics, the data remained same after formatting to one decimal for scores and whole number for percentage.
+    Thomas High School is a charter school and only charter school data is affected. There are only two types of schools so that the change of just ninth graders of Thomas High School is very insignificant. Same as above metrics, the data remained same after formatting to one decimal for scores and whole number for percentage. (_Please refer to [Appendix](#scores-by-school-type) for table comparison)_ 
 
 
 ## III. Summary
@@ -96,4 +96,12 @@ All the changes are caused by replacing Thomas High School ninth graders’ scor
   2.	In Per School Summary, Thomas High School's data changed. Similar to District Summary, all the metrics are affected by the replacement except for school’s basic information such as budget, type and size.
   3.	Math Score by Grade changed. (Average) Math score for 9th graders at Thomas High School has been adjusted to NaNs.
   4.	Reading Score by Grade changed. (Average) Reading score for 9th graders at Thomas High School has been adjusted to NaNs.
-  5.	As mentioned in [Results section](#ii.-results), data of Score by Spending, by Size and by Type all changed slightly but not significant enough to appear changes after formatting. 
+  5.	As mentioned in Results section, data of Score by Spending, by Size and by Type all changed slightly but not significant enough to appear changes after formatting. 
+ 
+ ## IV. Appendix
+ 
+### Scores by school spending
+
+### Scores by school size
+
+### Scores by school type
